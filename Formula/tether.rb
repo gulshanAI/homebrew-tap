@@ -3,27 +3,27 @@
 class Tether < Formula
   desc "Your dev machine in your pocket: files, terminals, git and previews from your phone"
   homepage "https://ter.soiltonenatural.com"
-  version "0.4.1"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.4.1/tether_0.4.1_darwin_arm64.tar.gz"
-      sha256 "7c3efe93c353fd1ebdf0fba3119e97d81a14ca2e1681b37560266ca9edd26028"
+      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.5.0/tether_0.5.0_darwin_arm64.tar.gz"
+      sha256 "2a5160cbe250cf65932b7a6fe9d5618be8840c26dc149200c7fc9171f9ed5f71"
     end
     on_intel do
-      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.4.1/tether_0.4.1_darwin_amd64.tar.gz"
-      sha256 "a874152283413e69e989a3955537255701ad56f924d8714cdec6652b44820b5b"
+      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.5.0/tether_0.5.0_darwin_amd64.tar.gz"
+      sha256 "d673fd19ad43a19c4174658e7998b87dfb13e930a7553c4c6b5a2bd16a0233da"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.4.1/tether_0.4.1_linux_arm64.tar.gz"
-      sha256 "f07d91c4fcea460d29bc3f6bdb228ffcf9e439c360a161968fd66a3de52003b6"
+      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.5.0/tether_0.5.0_linux_arm64.tar.gz"
+      sha256 "ba9014ff9eb8026e8484f1f12c7dfb444d24b8c010a49db72b5ac0ee0c141fd2"
     end
     on_intel do
-      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.4.1/tether_0.4.1_linux_amd64.tar.gz"
-      sha256 "c8da0276c84e266fe0b4ebc6dec10c01e311ad9b50d267cdf13301cb6fa15b7a"
+      url "https://gulshanai-tether-releases.s3.ap-south-1.amazonaws.com/v0.5.0/tether_0.5.0_linux_amd64.tar.gz"
+      sha256 "39dde4a301704a30662f9a497dafdb55ed071bab31383e47202d6b704b3197b3"
     end
   end
 
